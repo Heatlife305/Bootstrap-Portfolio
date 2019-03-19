@@ -1,0 +1,60 @@
+h1 {
+    color: white;
+}
+
+h2 {
+    color: teal;
+    margin-top: 20px;
+}
+
+.placeholder {
+    float: left;
+    margin-right: 15px;
+}
+
+html, body {
+    background-image: url(../Bootstrap-Portfolio/images/just-waves.png);
+    height: 100%;
+}
+
+.container {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: orange;
+}
+ 
+a {
+    color: white;
+}
+
+hr {
+    border: solid 1px;
+    color: teal;
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+  }
+
+#footer {
+    height: 100px;
+    background-color: gray;
+    border-top: 10px solid teal;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#message {
+    height: 150px;
+}
